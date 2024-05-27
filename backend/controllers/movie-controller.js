@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken")
 const Movie = require("../models/Movies")
 const mongoose=require('mongoose');
-const admin = require("../models/Admin");
+const admin = require("../models/admin");
 
 const addMovie = async (req, res, next) => { 
     const extractedToken = req.headers.authorization.split(" ")[1];
