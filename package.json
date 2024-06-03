@@ -13,5 +13,9 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "my booking application"
+  "description": "my booking application",
+  "repository": {
+    "type": "git",
+    "url": "ayush"
+  }
 }
